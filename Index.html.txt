@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Electrician & Plumbing Service</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('bg-electric.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+
+        .header {
+            padding: 40px 10px;
+            background: rgba(0,0,0,0.6);
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ff9900;
+            text-shadow: 0 0 4px #ff6600, 0 0 8px #ff6600;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #ffd9a3;
+            text-shadow: 0 0 5px #ff8800;
+        }
+
+        .profile img {
+            margin-top: 30px;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            border: 4px solid #ff9900;
+            box-shadow: 0 0 8px #ff8800;
+        }
+
+        .section {
+            background: rgba(0,0,0,0.6);
+            width: 90%;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 18px;
+            box-shadow: 0 0 10px #ff8800;
+        }
+
+        .whatsapp-btn, .phone-call {
+            display: inline-block;
+            padding: 15px 25px;
+            margin-top: 20px;
+            color: Black;
+            font-size: 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .whatsapp-btn {
+            background: #25D366;
+            box-shadow: 0 0 10px #25D366;
+        }
+
+        .phone-call {
+            background: #ff9900;
+            box-shadow: 0 0 10px #ff8800;
+        }
+
+        .gallery img {
+            width: 160px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 3px solid #ff9900;
+            box-shadow: 0 0 10px #ff8800;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="title">Electrician and Plumbing Service</div>
+        <div class="subtitle">24×7 Service Available here</div>
+    </div>
+
+    <div class="profile">
+        <img src="profile.jpg" alt="Profile Photo">
+
+        <div class="profilename" style="margin-top:15px;">
+            <span style="
+                font-weight:900;
+                font-size:30px;
+                color:#ff9900;
+                text-shadow:0 0 5px #ff6900;">
+                Expert Electrician 👉 AJAY MAURYA
+            </span>
+
+            <span style="
+                font-weight:400;
+                font-size:24px;
+                color:#ffcc66;
+                text-shadow:0 0 12px #ff9600;">
+            </span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 style="color:#ff9900;">Electric Services</h2>
+        <p>
+            • Wiring Work<br>
+            • Short Circuit <br>
+            • Fan Repairing<br>
+            • Light Fitting<br>
+            • Switchboard Work<br>
+            • MCB / Meter Work<br>
+        </p>
+
+        <h2 style="color:#ff9900;">Plumbing Services</h2>
+        <p>
+            • Pipe Leakage Repair<br>
+            • Tap Repair / Replacement<br>
+            • Bathroom Fittings<br>
+            • Kitchen Sink Repair<br>
+            • Water Motor Installation<br>
+        </p>
+    </div>
+
+    <a class="phone-call" href="tel:+917800036400">📞 Call Now: 7800036400</a>
+
+    <a class="whatsapp-btn" href="https://wa.me/917800036400?text=Hello+Ajay+Maurya,+I+need+service" target="_blank">
+        WhatsApp पर बुक करें
+    </a>
+
+    <div class="section">
+        <h2 style="color:#ff9900;">काम की फोटो गैलरी</h2>
+
+        <div class="gallery">
+            <img src="g1.jpg">
+            <img src="g2.jpg">
+            <img src="g3.jpg">
+            <img src="g4.jpg">
+        </div>
+
+        <p>नई फोटो जोड़ने के लिए — सिर्फ़ g1.jpg, g2.jpg replace करें।</p>
+    </div>
+
+    <div class="section">
+        <h2 style="color:#ff9900;">Contact Details</h2>
+
+        <p style="font-size:18px;">
+            📞 Mobile: <b><a href="tel:+917800036400" style="color:#ffcc99;">7800036400</a></b><br>
+            📍 Address: <b>Khar, Bandra (West)</b><br>
+        </p>
+    </div>
+
+</body>
+</html>
